@@ -13,5 +13,5 @@ Velanova, K., M. E. Wheeler, and B. Luna. “Maturational Changes in Anterior Ci
 
 
  * Latency (in ms) is time from start of the trial until the first saccade. Error corrected is latency of the first (error) saccade.
- *Scoring was done manually using matlab+ilab. There is a program to score, but it was not used for the paper.
+ * Scoring was done manually using matlab+ilab. There is a program to score, but it was not used for the paper.
 
