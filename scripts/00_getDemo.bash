@@ -16,7 +16,7 @@ for d in /data/Luna/Projects/INACTIVE/ARCHIVE/Anti_State/first_year/[0-9][0-9][0
    let count++
    BIRCID=$(basename $d)
    printf "sub%03d	$BIRCID	" $count
-   mysql -u lncd -p'B@ngal0re' -h lncddb.acct.upmchs.net  lunadb_nightly -BNe "
+   mysql -u lncd -h lncddb.acct.upmchs.net  lunadb_nightly -BNe "
                select datediff(VisitDate,DateOfBirth)/365.25 as age,
                  case sexID when 1 then 'M' when 2 then 'F' else '?' end as sex,
                  b.LunaId, date_format(VisitDate,'%Y%m%d') as visit, VisitDate,DateOfBirth
